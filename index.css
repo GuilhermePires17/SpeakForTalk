@@ -1,0 +1,96 @@
+body {
+background-image: url("https://img.freepik.com/fotos-gratis/parede-texturizada-cinza_53876-88964.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+}
+
+h1 {
+    color:blue;;
+}
+
+#titulo h1 {
+    text-shadow: -5px 3px 3px #1C6EA4;
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 50;
+    letter-spacing: 0.2px;
+    word-spacing: 2px;
+    color: #009DFF;
+    font-weight: normal;
+    text-decoration: none solid rgb(68, 68, 68);
+    font-style: normal;
+    font-variant: small-caps;
+    text-transform: none;
+}
+
+.cabecalho {
+    flex-direction:column;
+    justify-content:center;
+    display:flex;
+    width: 100%;
+    height: 100px;
+}
+.cabecalho ul {
+    display: flex;
+    list-style-type: none; 
+    flex-direction: row;
+}
+
+.cabecalho ul li {
+    margin-left: 10px;
+}
+
+.cabecalho a :hover {
+    background-color:aqua
+}
+
+.corpo {
+    display: flex;
+    flex-direction: row;
+}
+
+.entrar {
+padding: 10px;
+border-style: dashed;
+height: 200px;
+}
+
+.conteudo {
+    padding: 100px;
+    border-style: dashed;
+    height: 250px;
+}
+
+.conteudo h1 {
+    text-align: center;
+}
+
+.creditos {
+    text-align-last: center;
+    margin: 130px;
+    margin-top: 0px;
+}
+
+.creditos h1 a {
+    font-style: none;
+}
+
+container {
+    width: 100%;
+    padding: 15px;
+    padding-top: 0px;
+}
+
+img {
+    margin-left:560px;
+}
+
+container p {
+    font-size: 30px;
+}
+
+a:visited, a {
+    color: white
+}
+
+
