@@ -1,5 +1,5 @@
 body {
-background-image: url("https://img.freepik.com/fotos-gratis/parede-texturizada-cinza_53876-88964.jpg");
+background-image: url("https://static.vecteezy.com/ti/fotos-gratis/t2/4479474-pintado-cinza-fundo-com-textura-de-metal-gratis-foto.jpg");
 background-size: cover;
 background-repeat: no-repeat;
 background-position: center;
@@ -91,6 +91,9 @@ container p {
 
 a:visited, a {
     color: white
+}
+container ul li {
+    padding: 15px;
 }
 
 
